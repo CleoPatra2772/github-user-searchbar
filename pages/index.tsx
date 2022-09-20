@@ -1,7 +1,8 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import  { Header } from '../components/Header.component';
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import Search from '../components/Search.component';
+import logo from '../public/images/github-logo.svg';
+
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
@@ -9,16 +10,13 @@ const Home: NextPage = () => {
     <div >
       <Head>
         <title>Github Search App</title>
-        <link rel="icon" href="/images/github-logo.svg" />
+        <link rel="icon" href={logo} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
 
-      
+      <Search />
+    
 
-
-      
-
-      
     </div>
   )
 }

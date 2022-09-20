@@ -19,12 +19,14 @@
 .navbar-brand{
   margin: 10px 50px;
   opacity: 0.8;
+  cursor: pointer;
 }
 
 .navbar-brand:hover{
   opacity: 1.0;
 }
 
+/* search */
 
 
 /* html,
