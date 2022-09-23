@@ -15,9 +15,9 @@ const Search = () => {
     const [searchInput, setSearchInput] = useState('');
     const [user, setUser] = useState([]);
     
-    useEffect(() => {
-        Cookie.set("1", searchInput)
-    }, [searchInput]);
+    // useEffect(() => {
+    //     Cookie.set("1", searchInput)
+    // }, [searchInput]);
 
 
     // Search.getInitialProps = ({req} : any) => {
