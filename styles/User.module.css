@@ -1,0 +1,41 @@
+.userText{
+    padding-left: 20px;
+}
+
+
+.searchResult{
+    
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+    position: relative;
+   
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    padding: 10px;
+    margin-top: -80px;
+    border-radius: 10px;
+    
+}
+
+.user .userImage img{
+    width: 120px;
+    border-radius: 10%;
+  
+    
+}
+
+.viewProfile{
+    text-decoration: none;
+}
+
+
+ 

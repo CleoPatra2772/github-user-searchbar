@@ -3,6 +3,8 @@ import Head from 'next/head';
 import Search from '../components/Search.component';
 import logo from '../public/images/github-logo.svg';
 
+
+
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
@@ -16,6 +18,7 @@ const Home: NextPage = () => {
 
       <Search />
     
+      
 
     </div>
   )

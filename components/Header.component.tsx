@@ -8,9 +8,9 @@ import style from "../styles/Header.module.css";
 export const Header = () => {
     return(
 <nav className="navbar navbar-expand-lg">
-        {/* <Link href='/'> */}
+        <Link href='/'>
         <a className="navbar-brand"><Image className="logo" src={logo} width='30px' height='30px'/></a>
-        {/* </Link> */}
+        </Link>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
     </button>
@@ -30,7 +30,7 @@ export const Header = () => {
         </li>
 
         <li className="nav-item">
-            <Link href='/History'>
+            <Link href='/history'>
                 <a className="nav-link">History</a>
             </Link>
         </li>
