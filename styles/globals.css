@@ -13,11 +13,11 @@
 }
 
 .nav-item {
-  padding: 0px 50px;
+  padding: 0px 60px;
 }
 
 .navbar-brand{
-  margin: 10px 50px;
+  margin: 10px 40px;
   opacity: 0.8;
   cursor: pointer;
 }
@@ -26,7 +26,117 @@
   opacity: 1.0;
 }
 
-/* search */
+
+/* .card{
+  max-width: 540px;
+  border: solid !important;
+  margin: auto;
+} */
+
+
+/* userCard */
+/* * {
+  box-sizing: border-box;
+} */
+
+/* :root {
+  --background: white;
+
+  --primary: #ff1ead;
+  --secondary: #1effc3;
+  
+  --card-size: 300px;
+} */
+
+
+
+.card { 
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  border-radius: 0.75rem;
+  box-shadow:  0 22px 70px 4px rgba(0,0,0,0.56), 0 0 0 1px rgba(0, 0, 0, 0.3);
+  /* background-color: black !important; */
+  display: grid;
+  grid-template-columns: 40% auto;
+  color: white;
+  align-items: center;
+  transition: transform 0.25s cubic-bezier(0.4, 0.0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0.0, 0.2, 1);
+  
+}
+
+.card:hover {
+     transform: scale(1.1);
+     box-shadow:  0 32px 80px 14px rgba(0,0,0,0.36), 0 0 0 1px rgba(0, 0, 0, 0.3);
+  } 
+
+.card-details {
+  padding: 1rem;
+  background-color: black;
+}
+
+.name {
+  font-size: 1.25rem;
+  background-color: black;
+}
+
+.occupation {
+  font-weight: 600;
+  color: blue;
+  background-color: black;
+}
+
+.card-avatar {
+  display: flex;
+  place-items: center;
+  
+}
+
+/* svg {
+  fill: white;
+  width: 65%;
+} */
+
+.card-about {
+  margin-top: 1rem;
+  display: grid;
+  grid-auto-flow: column;
+  background-color: black;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem; 
+  background-color: black;
+  
+}
+
+.value {
+     font-size: 1rem;
+     background-color: black;
+  } 
+
+.label {
+  margin-top: 0.15rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: blue;
+  background-color: black;
+ 
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.75rem;
+  background-color: black;
+  }
+
+  .value {
+     margin-top: 0.15rem;
+     font-size: 0.75rem;
+     line-height: 1.25rem;
+  }
 
 
 /* html,
